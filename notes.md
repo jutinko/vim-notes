@@ -1,6 +1,19 @@
-# Notes from reading the vim manual
+# Notes From Reading the Vim Manual
+I have been using vim for some years now. It is only recently, when I started
+working I started to look into it. Vim is a very powerful and opinionated
+editor. I want to learn a lot about it.
 
-## usr_04.txt
+I knew the most basic ways to use vim before I started reading the manuals. I
+am not sure how suitable this will be for a person who is just starting to
+learn vim. I will try to explain where I am referencing stuff if I find it
+necessary.
+
+The manual for vim is not the easiest way to start vim. It is a very vim style.
+So the workflow goes like this, I wanna learn vim -> I read manual -> I start
+reading some instructions how to read the vim manual. Then we can go backwards
+to learn vim. :)
+
+## User manual
 ### 04.1 Motions
 "e" moves the curser to the end of the work you are currently at. If you
 specify a number `n` before "e", vim jumps to the end of the `n`th word.
@@ -58,7 +71,7 @@ from the manual, we want to remove the \<B\> tags from the line,
 ```
 To <B>generate</B> a table of <B>contents.
 ```
-We can do "/<", "df>", "n", ".", "n", "." on the line. 
+We can do "/<", "df>", "n", ".", "n", "." on the line.
 
 ## 04.4 Visual mode
 In block visual mode, try out "o" and find something exciting!
@@ -84,7 +97,7 @@ teh     th     the
 
 ## 04.8 Text objects
 Ever find yourself in the middle of a word and want to delete that word? Use
-"daw" which stands for "Delete A word"! 
+"daw" which stands for "Delete A word"!
 
 Ever find yourself in the middle of a sentence and want to delete the whole
 sentence? Use "dis" which stands for "Delete A Sentence"!
