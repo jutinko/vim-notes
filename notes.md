@@ -8,10 +8,27 @@ am not sure how suitable this will be for a person who is just starting to
 learn vim. I will try to explain where I am referencing stuff if I find it
 necessary.
 
-The manual for vim is not the easiest way to start vim. It is a very vim style.
+The manual for vim is not the easiest way to start vim. It is very vim style.
 So the workflow goes like this, I wanna learn vim -> I read manual -> I start
 reading some instructions how to read the vim manual. Then we can go backwards
-to learn vim. :)
+to learn vim. :) We can go to the vim manual by typing `:help` in vim's command
+mode. The "home" page for vim's manual consists of three sections:
+
+- BASIC
+- USER MANUAL
+  - Getting Started
+  - Editing Effectively
+  - ...
+- REFERENCE MANUAL
+  - General Subjects
+
+The sections are meant to be suitable for different use cases. If we compare
+the level of advanceness, we would have BASIC `<` USER MANUAL `<` REFERENCE
+MANUAL. This does not mean that the things covered are mutually exclusive
+between the sections.
+
+I am going to write about some of the useful commands I learned while digging
+through the manuals. quickref.txt
 
 ## User manual
 ### 04.1 Motions
