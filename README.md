@@ -1,18 +1,23 @@
 # Notes From Reading the Vim Manual
+## Intro
+### Vim
 I have been using vim for some years now. It is only recently, when I started
-working I started to look into it. Vim is a very powerful and opinionated
-editor. I want to learn a lot about it.
+working I started to seriously look into it. Vim is a very powerful and
+opinionated editor. I want to learn a lot about it. OK now it's time to ditch
+this document if you don't agree with me, we are still friends and everything
+is still fine.
 
-I knew the most basic ways to use vim before I started reading the manuals. I
-am not sure how suitable this will be for a person who is just starting to
-learn vim. I will try to explain where I am referencing stuff if I find it
-necessary.
+### Vim manuals
+I knew the most basic ways to use vim before I started reading the
+[manuals][manual]. I am not sure how suitable this will be for a person who is
+just starting to learn vim. I will try to explain where I am referencing stuff
+if I find it necessary.
 
 The manual for vim is not the easiest way to start vim. It is very vim style.
-So the workflow goes like this, I wanna learn vim -> I read manual -> I start
+For me, the experience has been: I wanna learn vim -> I read manual -> I start
 reading some instructions how to read the vim manual. Then we can go backwards
 to learn vim. :) We can go to the vim manual by typing `:help` in vim's command
-mode. The "home" page for vim's manual consists of three sections:
+mode. The **home** page for vim's manual consists of three sections:
 
 - BASIC
 - USER MANUAL
