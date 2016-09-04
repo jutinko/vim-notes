@@ -144,7 +144,7 @@ We can do `/<`, `df>`, `n`, `.`, `n`, `.` on the line.
 
 The information above comes from 04.3.txt.
 
-### Visual mode
+### Visual Mode and Text Objects
 In block visual mode, try out `o` and find something exciting!
 
 In line visual mode, while having something selected, you can press `o` to jump
@@ -168,7 +168,6 @@ teh     th     the
 
 The information above comes from 04.4.txt.
 
-## 04.8 Text objects
 Ever find yourself in the middle of a word and want to delete that word? Use
 `daw` which stands for "Delete A word"!
 
@@ -176,6 +175,48 @@ Ever find yourself in the middle of a sentence and want to delete the whole
 sentence? Use `dis` which stands for "Delete A Sentence"!
 
 For more text objects see motion.txt:6. Text object selection.
+
+When you find yourself repeating one or a few keys many times in a row, you
+should stop. Most of the times this means you're doing something that can be
+done in a more efficient way. Commands `c`, `h`, `l`, `b`, `f`, `j` and `k` are
+the perfect examples.
+
+The following commands can be used after `c`, `v` and `d` in different scenario
+in different scenarios.
+
+`aX` commands does something around a text object surrounded by `X`, where `X`
+can be `"`, `'`, `(`, `[`, `w`, `p` and `s` (there are probably more). For
+example `va"`
+
+```
+The quick brown fox jumps over the "lazy" dog.
+                                     ^
+```
+
+Will select in visual
+
+```
+The quick brown fox jumps over the "lazy" dog.
+                                   [    ]
+```
+
+`iX` commands does something inside a text object surrounded by `X`.
+
+And `di"`
+
+```
+The quick brown fox jumps over the "lazy" dog.
+                                     ^
+```
+
+Gives us
+```
+The quick brown fox jumps over the "" dog.
+```
+
+The information above comes from index.txt.
+
+To be continued...
 
 [comment]: #(Links)
 [manual]: http://vimdoc.sourceforge.net/htmldoc/help.html
